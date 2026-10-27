@@ -41,8 +41,8 @@ jobs:
       MACOSX_DEPLOYMENT_TARGET: '12.0'
       CARGO_PROFILE_RELEASE_STRIP: symbols
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Validate tag against Cargo version
@@ -96,7 +96,7 @@ jobs:
               for flag in ('--version', '--check-assets'):
                   subprocess.run([str(exe), flag], cwd=tmp, env=env, check=True)
           PY
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.platform }}
           path: dist/*
@@ -110,7 +110,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: dist
           merge-multiple: true
