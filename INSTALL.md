@@ -8,6 +8,9 @@
 Откройте `orcs-from-the-neighborhood.exe`. Нужна Windows 10/11 x64 и актуальный
 видеодрайвер с поддержкой Vulkan или DirectX 12. Сборки не подписаны сертификатом
 издателя, поэтому Windows может показать предупреждение о неизвестном приложении.
+Если система сообщает об отсутствующей библиотеке `VCRUNTIME` или `MSVCP`,
+установите [Microsoft Visual C++ v14 Redistributable x64](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)
+с официального сайта Microsoft.
 
 ## macOS
 

@@ -58,3 +58,9 @@ cargo run -- --preview --capture output/table-preview.png
 Упаковка проверяется запуском из временной папки вне исходного дерева.
 Матрица GitHub Actions проверяет Linux, Windows и macOS; настройка workflow сама
 по себе не подтверждает успешный прогон — актуальный результат доступен в Actions.
+
+Первый [прогон GitHub CI](https://github.com/villetacore/orcs-from-the-neighborhood/actions/runs/40563801432)
+успешен: контент и приватность, Windows x64, Linux x64, macOS Apple Silicon.
+Во всех трёх системных заданиях прошли Clippy, тесты workspace, сборка клиента
+и команды диагностики без графического окна. Локально дополнительно проверена
+упаковка с системной кодировкой cp1252: JSON с кириллицей читается явно как UTF-8.

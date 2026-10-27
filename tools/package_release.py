@@ -20,7 +20,7 @@ def main():
     parser.add_argument("--binary", type=Path, required=True)
     parser.add_argument("--output", type=Path, default=ROOT / "dist")
     args = parser.parse_args()
-    version = tomllib.loads((ROOT / "Cargo.toml").read_text())["workspace"]["package"]["version"]
+    version = tomllib.loads((ROOT / "Cargo.toml").read_text(encoding="utf-8"))["workspace"]["package"]["version"]
     if not args.binary.is_file():
         parser.error(f"binary does not exist: {args.binary}")
     args.output.mkdir(parents=True, exist_ok=True)
@@ -53,7 +53,7 @@ def main():
         shutil.copyfile(args.binary, executable)
         executable.chmod(0o755)
         # Copy exactly the artwork referenced by the compiled catalogue, plus the back.
-        cards = json.loads((ROOT / "data/cards.json").read_text())
+        cards = json.loads((ROOT / "data/cards.json").read_text(encoding="utf-8"))
         images = {c["image"] for c in cards} | {"assets/art/card_back.png"}
         for image in sorted(images):
             destination = resources / image
