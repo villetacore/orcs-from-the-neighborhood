@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63mm" height="88mm" viewBox="0 0 630 880">
+<defs><clipPath id="art-club"><rect x="27" y="151" width="576" height="355" rx="5"/></clipPath></defs>
+<rect x="4" y="4" width="622" height="872" rx="19" fill="#ded0aa" stroke="#af944b" stroke-width="8"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" fill="#26332f">
+<text x="38" y="39" font-size="17" fill="#af944b">СНАРЯЖЕНИЕ · БАРАХЛО</text>
+<g font-weight="bold"><text x="38" y="83" font-size="30">Последнее предупреждение</text></g>
+<image x="27" y="151" width="576" height="355" preserveAspectRatio="xMidYMid meet" clip-path="url(#art-club)" xlink:href="../../assets/art/club.png"/>
+<path d="M28 522H602" stroke="#af944b" stroke-width="3"/>
+<text x="38" y="551" font-size="21" font-weight="bold">+3 СИЛЫ · ОРУЖИЕ · 6 КР.</text>
+<text x="38" y="590" font-size="25">Оружие. После победы сбрось карту с</text><text x="38" y="619" font-size="25">руки.</text>
+<g fill="#746045" font-style="italic"><text x="38" y="791" font-size="19">Третье последнее предупреждение. Четвёртого не</text><text x="38" y="813" font-size="19">будет: некому.</text></g>
+<text x="38" y="851" font-size="14" fill="#69644e">CLUB · ОРКИ С РАЙОНА</text>
+</g></svg>

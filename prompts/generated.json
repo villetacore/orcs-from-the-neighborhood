@@ -1,0 +1,97 @@
+[
+  {
+    "id": "elvira",
+    "prompt": "Use case: stylized-concept. Portrait 3:4 illustration for an adult satirical post-apocalyptic fantasy card game. Rough hand-drawn black ink, crosshatching, dry brush and matte gouache on aged paper, rust orange, swamp green, faded blue and charcoal palette. Angular visibly mature faces, believable anatomy, wry comic situation. Original designs. No text, letters, logos, frame, UI, photorealism, 3D or chibi. Subject: Elvira, a clearly adult 312-year-old elf woman who runs a theatrical dark cabaret in a ruined Soviet apartment district, amused commanding mature face with pointed ears and short dark hair. Fully clothed in an opaque black high-neck leather jacket, fitted black trousers, tall practical boots and gloves, holding a rolled stage prop riding crop at her side, brass keys at belt. Beside her is a battered waiting-room chair and a neat queue-number dispenser, funny contrast between commanding stage persona and mundane district bureaucracy. Confident relaxed standing portrait. Non-explicit character comedy, no nudity, no sexual acts, no bondage activity.",
+    "path": "assets/art/elvira.png"
+  },
+  {
+    "id": "boris",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Boris Shesteryon, mature bearded dwarf union engineer, gray beard bound with copper wire, scarred broad hands, heavy blue overalls, an oversized wrench and thermos, standing in a ruined underground tram depot. His look says overtime must be paid.",
+    "path": "assets/art/boris.png"
+  },
+  {
+    "id": "rashid",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Rashid ibn Chaynik, adult middle-aged djinn contract magician with blue smoke legs emerging from battered tea kettle, elegant worn vest and rolled sleeves, pointed beard, weary charming face, brass spectacles, holding absurdly long blank contract at a post-apocalyptic repair counter. Original folktale urban character.",
+    "path": "assets/art/rashid.png"
+  },
+  {
+    "id": "aki",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Aki, mature powerful female oni debt collector, brick-red skin, two short horns, blunt dark bob, repaired business overcoat and practical boots, a battered briefcase full of blank debt notices, stern but sympathetic adult face, in ruined concrete stairwell.",
+    "path": "assets/art/aki.png"
+  },
+  {
+    "id": "district_swamp",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Establishing scene: flooded courtyard of Soviet panel apartment blocks, reeds and swamp boardwalks, one elderly witch negotiates with a distant water spirit over a leaking radiator. Grimly comic adult post-apocalyptic Slavic fantasy. Environment is main subject.",
+    "path": "assets/art/district_swamp.png"
+  },
+  {
+    "id": "district_depot",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Establishing scene: underground dwarf tram repair depot, enormous rusted carriage on blocks, rune welding, warm industrial work lights, empty mugs and sturdy tool racks, tiny adult dwarf workers for scale. Environment is main subject.",
+    "path": "assets/art/district_depot.png"
+  },
+  {
+    "id": "district_market",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Establishing scene: nocturnal interdimensional flea market between ruined concrete apartments, smoky portal behind stalls, adult elf goblin and djinn bargain over junk, lamps and blue magic, hand-painted blank signs. Environment is main subject.",
+    "path": "assets/art/district_market.png"
+  },
+  {
+    "id": "district_forest",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Establishing scene: ancient enchanted forest overruns a Soviet ring road, antlered leshy spirit half tree half industrial pipe in distance, traffic lights caught in ivy, old enchanted household offerings. Environment is main subject.",
+    "path": "assets/art/district_forest.png"
+  },
+  {
+    "id": "district_mall",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Establishing scene: abandoned multi-level Soviet-style shopping mall turned labyrinth, impossibly tangled escalators, imposing tired adult minotaur security guard holding a tiny folding map, shuttered shops and emergency bulbs. Environment is main subject.",
+    "path": "assets/art/district_mall.png"
+  },
+  {
+    "id": "district_sanatorium",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Establishing scene: crumbling post-apocalyptic sanatorium, overgrown mineral bath, faded tiles, a skeletal spa attendant in an old white coat offering a cup of suspicious green water. Wry adult dark humor. Environment is main subject.",
+    "path": "assets/art/district_sanatorium.png"
+  },
+  {
+    "id": "shop",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Interior of Skupych's fantasy junk shop in a Soviet garage, mature sly goblin merchant behind a counter weighing metal washer coins, shelves of enchanted repair junk, chipped samovar, cursed slippers, serious elf customer. Strong focal goblin, original comic world.",
+    "path": "assets/art/shop.png"
+  },
+  {
+    "id": "boss",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: The Landlord of the District: imposing adult post-apocalyptic fantasy antagonist, three-meter-tall armored property manager on a throne made of fused apartment entry doors, crown of huge brass keys, antique utility meter as chest armor, glowing lease scroll and rusty sword, ruined council hall. Darkly funny bureaucratic tyrant, no resemblance to existing franchise characters.",
+    "path": "assets/art/boss.png"
+  },
+  {
+    "id": "moth",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: A mature grumpy kappa water-meter inspector from Japanese folklore adapted to a ruined Russian apartment basement, turtle shell, wet green skin, dish-like head with water, mechanic's vest and pliers, crouched over absurd tangled pipes, strong adult grotesque comic anatomy.",
+    "path": "assets/art/moth.png"
+  },
+  {
+    "id": "knight",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Adult oni technical inspection knight, two short horns, patched armor assembled from car panels, rusty wheel-hub shield and inspection tool, standing beside a ruined garage, dry bureaucratic expression. Japanese folklore in Slavic urban post-apocalypse, original design.",
+    "path": "assets/art/knight.png"
+  },
+  {
+    "id": "druid",
+    "prompt": "Use case: stylized-concept. Portrait 3:4 illustration for an adult satirical post-apocalyptic fantasy card game. Rough hand-drawn black ink, crosshatching, dry brush and matte gouache on aged paper, rust orange, swamp green, faded blue and charcoal palette. Angular visibly mature faces, believable anatomy, wry comic situation. Original designs. No text, letters, logos, frame, UI, photorealism, 3D or chibi. Subject: A clearly adult centuries-old male elf bootlegger and allotment druid with long pointed ears, tired wrinkled face, disheveled gray hair, enormous zucchini staff, patched work clothes and an apron. Standing in an overgrown post-apocalyptic Soviet allotment beside an absurdly tangled homemade copper distilling apparatus and barrels, rubbing his temple with embarrassed dignity while enchanted zucchini overrun the shed. Comedic hangover scene, no technical instructions or legible labels. Mature grotesque graphic novel character.",
+    "path": "assets/art/druid.png"
+  },
+  {
+    "id": "conductor",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Adult draugr tram conductor inspired by Norse folklore, weathered frozen undead face, battered blue uniform and peaked cap, punch tool and antique ticket roll with no text, guarding a ruined last tram in snow. Dry black humor.",
+    "path": "assets/art/conductor.png"
+  },
+  {
+    "id": "witch",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Adult female fox shapeshifter inspired by Chinese folklore, intelligent mature human face with subtle fox ears and one fox tail, worn business suit, stack of blank insurance contracts and antique stamp, commanding a long queue of grumpy adult fantasy residents at a Soviet service office. No childish or sexualized styling.",
+    "path": "assets/art/witch.png"
+  },
+  {
+    "id": "golem",
+    "prompt": "Use case: stylized-concept. Asset type: portrait illustration for an adult satirical post-apocalyptic urban fantasy card game. Hand drawn graphic novel, expressive angular adult faces, rough variable black ink, crosshatching, dry brush, matte gouache on aged paper. Rust orange, swamp green, faded blue, mustard and concrete gray. Wry world-weary humor, believable anatomy. Original characters, no chibi, no cute toy proportions, no photorealism, no 3D, no gloss. Vertical portrait 3:4, strong readable central silhouette. No letters, text, logos, numbers, border or UI. Subject: Massive adult minotaur security guard in a concrete-gray patched uniform, bull head and weary eyes, broom and cracked floor-polisher shield, standing in ruined shopping mall. A comic exhausted working adult, powerful silhouette and recognizable horns.",
+    "path": "assets/art/golem.png"
+  },
+  {
+    "id": "zombie",
+    "prompt": "Use case: stylized-concept. Portrait 3:4 illustration for an adult satirical post-apocalyptic fantasy card game. Rough hand-drawn black ink, crosshatching, dry brush and matte gouache on aged paper, rust orange, swamp green, faded blue and charcoal palette. Angular visibly mature faces, believable anatomy, wry comic situation. Original designs. No text, letters, logos, frame, UI, photorealism, 3D or chibi. Subject: A clearly adult middle-aged undead communist party organizer in a ruined Russian apartment courtyard, comically stern gray-green face, shabby old workers coat with red cloth armband, battered plain red membership booklet in one hand and empty pickle jar in other, old red cloth banner rolled over shoulder. Dry political and hangover satire, no gore, no real politician, no legible lettering or symbols, no hate emblems. He looks like he survived death but not the committee meeting.",
+    "path": "assets/art/zombie.png"
+  }
+]

@@ -1,0 +1,15 @@
+name: Предложение / Feature request
+description: Улучшение игры, правил или удобства
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему решаем?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемое поведение
+    validations:
+      required: true

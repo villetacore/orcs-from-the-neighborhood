@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63mm" height="88mm" viewBox="0 0 630 880">
+<defs><clipPath id="art-kikimora"><rect x="27" y="151" width="576" height="355" rx="5"/></clipPath></defs>
+<rect x="4" y="4" width="622" height="872" rx="19" fill="#ded0aa" stroke="#a95640" stroke-width="8"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" fill="#26332f">
+<text x="38" y="39" font-size="17" fill="#a95640">ВРАГ · РАЗБОРКИ</text>
+<g font-weight="bold"><text x="38" y="83" font-size="30">Кикимора ЖКХ</text></g>
+<image x="27" y="151" width="576" height="355" preserveAspectRatio="xMidYMin slice" clip-path="url(#art-kikimora)" xlink:href="../../assets/art/kikimora.png"/>
+<path d="M28 522H602" stroke="#a95640" stroke-width="3"/>
+<text x="38" y="551" font-size="21" font-weight="bold">СИЛА 5 · +1 УР. · 1 КАРТА · 2 КР.</text>
+<text x="38" y="590" font-size="25">Перед боем сбрось расходник или получи</text><text x="38" y="619" font-size="25">−1 силы. При поражении: потеря</text><text x="38" y="648" font-size="25">случайной карты.</text>
+<g fill="#746045" font-style="italic"><text x="38" y="791" font-size="19">Подрядчик Управы. За горячие трубы доплата, за</text><text x="38" y="813" font-size="19">холодные отношения — тоже.</text></g>
+<text x="38" y="851" font-size="14" fill="#69644e">KIKIMORA · ОРКИ С РАЙОНА</text>
+</g></svg>

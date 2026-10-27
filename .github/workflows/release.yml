@@ -1,0 +1,132 @@
+name: Release
+
+on:
+  push:
+    tags: ['v[0-9]*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  checks:
+    uses: ./.github/workflows/ci.yml
+
+  build:
+    needs: checks
+    name: Package (${{ matrix.platform }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-24.04
+            platform: linux-x86_64
+            target: x86_64-unknown-linux-gnu
+          - os: windows-2022
+            platform: windows-x86_64
+            target: x86_64-pc-windows-msvc
+          - os: macos-14
+            platform: macos-aarch64
+            target: aarch64-apple-darwin
+          - os: macos-15-intel
+            platform: macos-x86_64
+            target: x86_64-apple-darwin
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 90
+    env:
+      MACOSX_DEPLOYMENT_TARGET: '12.0'
+      CARGO_PROFILE_RELEASE_STRIP: symbols
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate tag against Cargo version
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, tomllib
+          from pathlib import Path
+          version = tomllib.loads(Path('Cargo.toml').read_text())['workspace']['package']['version']
+          if os.environ['GITHUB_REF_TYPE'] == 'tag':
+              assert os.environ['GITHUB_REF_NAME'] == f'v{version}', 'Tag must match Cargo.toml version'
+          PY
+      - name: Linux build dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libasound2-dev libudev-dev libx11-dev libxi-dev libxrandr-dev libxcursor-dev libxinerama-dev libxkbcommon-dev libwayland-dev libegl1-mesa-dev libvulkan-dev
+      - name: Install Rust and target
+        shell: bash
+        run: |
+          rustup show active-toolchain
+          rustup target add ${{ matrix.target }}
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: release-${{ matrix.target }}
+      - name: Build without machine paths
+        shell: bash
+        run: |
+          export RUSTFLAGS="--remap-path-prefix=${GITHUB_WORKSPACE}=/src --remap-path-prefix=${HOME}=/build"
+          cargo build --release --locked --target ${{ matrix.target }} --bin orcs-from-the-neighborhood
+      - name: Package
+        shell: bash
+        run: |
+          binary=target/${{ matrix.target }}/release/orcs-from-the-neighborhood
+          if [ "${{ runner.os }}" = Windows ]; then binary="$binary.exe"; fi
+          python tools/package_release.py --platform ${{ matrix.platform }} --binary "$binary"
+      - name: Verify extracted package away from the source tree
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, pathlib, stat, subprocess, tempfile, zipfile
+          archive = next(pathlib.Path('dist').glob('*.zip'))
+          with tempfile.TemporaryDirectory() as tmp:
+              with zipfile.ZipFile(archive) as z:
+                  z.extractall(tmp)
+              name = 'orcs-from-the-neighborhood' + ('.exe' if os.name == 'nt' else '')
+              exe = next(pathlib.Path(tmp).rglob(name))
+              exe.chmod(exe.stat().st_mode | stat.S_IXUSR)
+              env = dict(os.environ)
+              env.pop('ORCS_ROOT', None)
+              for flag in ('--version', '--check-assets'):
+                  subprocess.run([str(exe), flag], cwd=tmp, env=env, check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.platform }}
+          path: dist/*
+          if-no-files-found: error
+          retention-days: 14
+
+  publish:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Verify checksums and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          cd dist
+          cat *.sha256 > SHA256SUMS
+          sha256sum --check SHA256SUMS
+          if gh release view "$RELEASE_TAG" --json isDraft --jq '.isDraft' > /tmp/release-draft; then
+            test "$(cat /tmp/release-draft)" = true || { echo 'Release is already published; use a new version.'; exit 1; }
+          else
+            gh release create "$RELEASE_TAG" --verify-tag --title "Орки с района $RELEASE_TAG" --generate-notes --draft
+          fi
+          gh release upload "$RELEASE_TAG" ./*.zip SHA256SUMS --clobber
+          gh release edit "$RELEASE_TAG" --draft=false

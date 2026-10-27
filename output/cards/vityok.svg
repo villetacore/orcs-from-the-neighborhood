@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63mm" height="88mm" viewBox="0 0 630 880">
+<defs><clipPath id="art-vityok"><rect x="27" y="151" width="576" height="355" rx="5"/></clipPath></defs>
+<rect x="4" y="4" width="622" height="872" rx="19" fill="#ded0aa" stroke="#648897" stroke-width="8"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" fill="#26332f">
+<text x="38" y="39" font-size="17" fill="#648897">ПЕРСОНАЖ · КОМПОНЕНТ СТОЛА</text>
+<g font-weight="bold"><text x="38" y="83" font-size="30">Витёк «Сварщик»</text></g>
+<image x="27" y="151" width="576" height="355" preserveAspectRatio="xMidYMin slice" clip-path="url(#art-vityok)" xlink:href="../../assets/art/vityok.png"/>
+<path d="M28 522H602" stroke="#648897" stroke-width="3"/>
+<text x="38" y="551" font-size="21" font-weight="bold">КОМПОНЕНТ СТОЛА</text>
+<text x="38" y="590" font-size="25">Техническое снаряжение даёт +1 силы</text><text x="38" y="619" font-size="25">(один раз за бой).</text>
+<g fill="#746045" font-style="italic"><text x="38" y="791" font-size="19">43 года. Сварит ворота, самогон и алиби. С бывшей не</text><text x="38" y="813" font-size="19">разговаривает.</text></g>
+<text x="38" y="851" font-size="14" fill="#69644e">VITYOK · ОРКИ С РАЙОНА</text>
+</g></svg>

@@ -1,0 +1,36 @@
+[package]
+name = "orcs-game"
+description = "Клиент «Орков с района» на Bevy: стол, меню, галерея, правила и автосохранение."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+publish = false
+default-run = "orcs-from-the-neighborhood"
+
+[[bin]]
+name = "orcs-from-the-neighborhood"
+path = "src/main.rs"
+
+[dependencies]
+orcs-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+directories.workspace = true
+bevy_egui.workspace = true
+bevy = { workspace = true, features = [
+    "std",
+    "bevy_asset",
+    "bevy_state",
+    "bevy_window",
+    "bevy_winit",
+    "bevy_render",
+    "bevy_core_pipeline",
+    "bevy_log",
+    "png",
+    "multi_threaded",
+    "x11",
+    "wayland",
+] }

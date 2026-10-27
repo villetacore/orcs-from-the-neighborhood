@@ -1,0 +1,60 @@
+{
+  "title": "Москва после Перекоса — зоны влияния",
+  "year": 2055,
+  "image": "assets/maps/moscow-factions.png",
+  "tool": "built-in image_gen",
+  "purpose": "Иллюстрированная карта мира сверху; география и границы художественные, не навигационные.",
+  "factions": [
+    {
+      "number": 1,
+      "name": "Управа Последней Подписи",
+      "presence": "центральная зона внутри Садового кольца",
+      "color": "кирпичный"
+    },
+    {
+      "number": 2,
+      "name": "Союз свободных дворов",
+      "presence": "Чертаново, Зюзино, Южный узел",
+      "color": "оливковый"
+    },
+    {
+      "number": 3,
+      "name": "Братство синей изоленты",
+      "presence": "Варшавский разлом и подземные мастерские",
+      "color": "приглушённый синий",
+      "network": true
+    },
+    {
+      "number": 4,
+      "name": "Красная нежить",
+      "presence": "ВДНХ и северо-восточные склады",
+      "color": "красный"
+    },
+    {
+      "number": 5,
+      "name": "Дом Чёрного Бархата",
+      "presence": "малый анклав внутри Южного узла",
+      "color": "фиолетовый"
+    },
+    {
+      "number": 6,
+      "name": "Артель Последнего Глотка",
+      "presence": "южные источники, сады, окрестности Последнего шанса",
+      "color": "горчичный"
+    },
+    {
+      "number": 7,
+      "name": "Вольные ходоки",
+      "presence": "стоянки у МКАД и сеть путей",
+      "color": "ржаво-оранжевый",
+      "network": true
+    },
+    {
+      "number": 8,
+      "name": "Лига трёх желаний",
+      "presence": "Башни обещаний и Черкизон-2",
+      "color": "бирюзовый"
+    }
+  ],
+  "prompt": "Use case: infographic-diagram.\nAsset type: finished illustrated top-down world map for the Russian-language adult satirical post-apocalyptic fantasy card game \"Орки с района\".\nPrimary request: create a beautiful, highly readable OVERHEAD CARTOGRAPHIC MAP of MOSCOW AFTER THE GREAT OVERLAP, year 2055, with regions and all EIGHT factions' territories and bases. This is an in-world game atlas illustration, not a screenshot of an app. Wide landscape composition, approximately 3:2, high resolution.\n\nStyle: visibly hand-drawn cartography, fine variable black ink, crosshatching, restrained matte watercolor/gouache on lightly aged ivory paper. Mature darkly comic post-apocalyptic adventure graphic novel. Crisp readable geography, extensive ruined urban street texture, parks, industrial yards, underground route symbols, but no excessive decorative clutter. No perspective or isometric terrain: straight-down city plan, roofs and building footprints seen from directly above. Small flat pictograms are allowed. Palette rust, concrete gray, faded petrol blue, swamp green, mustard, muted violet. Distinct translucent faction color washes preserve underlying streets.\n\nComposition: about 73% of width is the city map on the LEFT, 27% is a clean legend and notes on the RIGHT. Large title along top, neat scale-free compass with north UP. The entire roughly oval MKAD outer road ring must be visible, with radial avenues, Garden Ring and a smaller central ring. A meandering blue-gray Moskva river crosses the city from WEST to SOUTHEAST, with realistic winding bends and bridges. The recognizable broad arrangement of Moscow should be maintained despite fictional magical distortions: Kremlin in center, Moscow City west of center, VDNKh north/northeast of center, Izmailovo farther east/northeast, Bitsevsky forest south/southwest, Chertanovo south, Zyuzino adjacent northwest of Chertanovo. Do not show a regular fantasy island or medieval walled city; it must clearly read as altered MOSCOW with ring roads, radial avenues, panel-block neighborhoods and parks.\n\nExact title at top in Russian: \"МОСКВА ПОСЛЕ ПЕРЕКОСА\"\nExact subtitle: \"2055 · ЗОНЫ ВЛИЯНИЯ\"\nSmall bottom note, exact: \"Художественная карта мира игры. Границы условны.\"\n\nFaction placement and marking, all eight must appear both on map using numbered insignias 1–8 and in right legend:\n1. \"Управа Последней Подписи\": muted brick-red territory inside Garden Ring, central government checkpoints, door-and-seal emblem. Kremlin itself is a small separate dark crosshatched CLOSED area in the center, not a faction capital; label \"Закрытый центр\".\n2. \"Союз свободных дворов\": olive green PATCHWORK neighborhoods in the south, across Chertanovo and Zyuzino. Emblem bunch of keys. Highlight the allied starting base \"ЮЖНЫЙ УЗЕЛ\" with a larger star and readable label, around 6 o'clock inside MKAD. This is a shared home base with small overlapping allied outposts.\n3. \"Братство синей изоленты\": petrol-blue underground workshop CORRIDOR and dotted tunnel connections starting by Varshavsky industrial rift in the south. Gear wrapped with blue tape emblem. Label \"Варшавский разлом\". Represent underground influence with dashed lines, NOT a giant surface empire.\n4. \"Красная нежить\": crimson-red distinct northern/northeastern area around VDNKh. Bone hand and red cloth emblem. Label \"ВДНХ · Достигнутое бессмертие\". Simple undead-worker and pavilion pictograms, no real political leader portraits or real party logos.\n5. \"Дом Чёрного Бархата\": muted violet SMALL enclave in South Node, NOT a huge separate northern territory. Silver clasp on black ribbon emblem. Point to the enclave with a clear numbered 5 leader line, and label \"Чёрный бархат\" near it. The club is a building/plot, not a sexual scene.\n6. \"Артель Последнего Глотка\": mustard/amber water-source and garden outposts along the southern forest fringe, west/southwest of South Node and near a fictional resort. Cup-and-hop emblem. Label \"Последний шанс\". Show copper still and well icons from top-down, no people drinking in foreground.\n7. \"Вольные ходоки\": rusty-orange dashed route network, waypoint camps around the MKAD outer ring and a few metro entrances, NOT one solid territory. Open circle and footprint emblem. Note beside the legend \"маршруты и стоянки\".\n8. \"Лига трёх желаний\": turquoise TWO SEPARATE trading enclaves: Moscow City west of center, and Izmailovo market east/northeast. Three linked copper rings emblem. Clearly label both \"Башни обещаний\" and \"Черкизон-2\". Merchant route between them may be dotted, not a continuous owned region.\n\nAdditional large readable geographic region labels, placed sparingly:\n\"МКАД · Последнее кольцо\" along outer rim;\n\"Садовое кольцо\";\n\"Москва-река\" along river;\n\"Битцевская чаща\" over dark-green wild forest in southwest, unclaimed dangerous territory;\n\"Чертановские топи\" over southern swamp patches beside residential areas;\n\"Калужский лабиринт\" southwest, a small tangled mall footprint with a horned security emblem, no extra faction;\n\"Нижняя Москва\" next to a small dashed metro/tunnel key near the bottom.\n\nRight legend heading exactly \"ФРАКЦИИ\". Eight numbered rows must show the full faction names exactly, each paired with the same color and emblem as map. Beneath that, a compact graphical key with exact labels:\n\"Зона влияния\" — translucent colored patch\n\"Спорная территория\" — two-color diagonal hatching\n\"Подземный маршрут\" — blue dashed line\n\"Путь ходоков\" — orange dotted line\n\"Разлом\" — violet jagged fissure\n\"База героев\" — star\n\nMake boundaries irregular and believable, show several small contested zones with hatching. Leave some city blocks neutral and some areas dangerous wilderness. Never imply faction identity equals species. No fighting scenes, no character portraits obscuring the city, no nudity, no logos, no game UI buttons, no English text, no gibberish microtext. Prioritize accurate spelled Russian titles, faction legend, numbered territory correspondence and SOUTH NODE placement. This map explains where the factions operate and where adventures occur."
+}

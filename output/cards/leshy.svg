@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63mm" height="88mm" viewBox="0 0 630 880">
+<defs><clipPath id="art-leshy"><rect x="27" y="151" width="576" height="355" rx="5"/></clipPath></defs>
+<rect x="4" y="4" width="622" height="872" rx="19" fill="#ded0aa" stroke="#a95640" stroke-width="8"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" fill="#26332f">
+<text x="38" y="39" font-size="17" fill="#a95640">ВРАГ · РАЗБОРКИ</text>
+<g font-weight="bold"><text x="38" y="83" font-size="30">Леший с промзоны</text></g>
+<image x="27" y="151" width="576" height="355" preserveAspectRatio="xMidYMin slice" clip-path="url(#art-leshy)" xlink:href="../../assets/art/leshy.png"/>
+<path d="M28 522H602" stroke="#a95640" stroke-width="3"/>
+<text x="38" y="551" font-size="21" font-weight="bold">СИЛА 8 · +1 УР. · 2 КАРТЫ · 3 КР.</text>
+<text x="38" y="590" font-size="25">Особых свойств нет. При поражении: −1</text><text x="38" y="619" font-size="25">уровень.</text>
+<g fill="#746045" font-style="italic"><text x="38" y="791" font-size="19">Ушёл в Битцу от жены. Лес попросил хотя бы иногда</text><text x="38" y="813" font-size="19">трезветь.</text></g>
+<text x="38" y="851" font-size="14" fill="#69644e">LESHY · ОРКИ С РАЙОНА</text>
+</g></svg>

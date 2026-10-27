@@ -1,0 +1,32 @@
+[workspace]
+resolver = "3"
+members = ["crates/orcs-core", "crates/orcs-game"]
+default-members = ["crates/orcs-game"]
+
+[workspace.package]
+version = "0.4.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+authors = ["villetacore"]
+repository = "https://github.com/villetacore/orcs-from-the-neighborhood"
+
+[workspace.dependencies]
+orcs-core = { path = "crates/orcs-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+bevy = { version = "0.20", default-features = false }
+bevy_egui = "0.43"
+directories = "6"
+
+# Bevy is slow in plain debug builds; optimise dependencies but keep our code fast to rebuild.
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

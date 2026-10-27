@@ -1,0 +1,24 @@
+# Build and release artifacts
+/target/
+/dist/
+.godot/
+
+# Local editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration, credentials and game saves
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+table_save.json
+*.json.tmp
+
+# Temporary captures and Python caches
+output/screenshots/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,29 @@
+name: Ошибка / Bug report
+description: Воспроизводимая ошибка игры или сборки
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Версия игры
+      placeholder: 0.4.0 или commit
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: ОС и видеокарта
+      placeholder: Windows 11 x64 / GPU
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить
+      description: Шаги, ожидаемый результат и фактическое поведение. Уберите личные пути из логов.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Снимки и дополнительные сведения
